@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de Luca Sesma Vinck">
+    <meta name ="Author" content="Lucas Sesma Vinck">
+    <title>Portafolio</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos al portafolio de Sesma</h1>
+        <!--Navegador apartados web-->
+        <nav>
+            <ul>
+                <li><a href="#Sobre-mi">Sobre mi</a></li>
+                <li><a href="#Estudios-y-proyectos">Estudios y proyectos</a></li>
+                <li><a href="#Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="Sobre-mi">
+            <h2>Sobre mi</h2>
+            <p>Soy un estudiante de ASIR de primer año en Prometeo The Power FP online. Vivo en Gijón, Asturias. Mi principal hobbie son los deportes, soy una persona muy activa y practico principalmente balonmano en el equipo Gijón Jovellanos, en mi tiempo libre también me gusta ir al gimnasio, jugar partidos de pádel o ir a hacer surf. Me encanta el sector tecnológico, y principalmente el mundo de la ciberseguridad y espero algún dia poder vivir de ello. </p>
+            <figure>
+            <img src="./images/Yo.jpeg" width="150px" alt="Foto Lucas Sesma"><br><br>
+            </figure>
+            <figure>
+            <img src="./images/Yo balonmano.png" width="230px" alt="Yo balonmano">
+            <figcaption>Yo tirando en un partido de balonmano</figcaption>
+            </figure>
+            <figure>
+            <img src="./images/Yo pequeño.png" width="204px" alt="Yo pequeño">
+            <figcaption>Este soy yo de pequeño</figcaption>
+            <aside>Esta foto me la sacaron justo despues de graduarme de infantil</aside>
+            </figure>
+            <h3>Habilidades</h3>
+            <ul>
+                <li>Creativo</li>
+                <li>Trabajo en equipo</li>
+                <li>Buen nivel de inglés</li>
+                <li>Deportista</li>
+            </ul>
+        </div>
+        <div id="Estudios-y-proyectos">
+            <h2>Estudios</h2>
+            <p>He cursado desde 2010 hasta 2025 Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria y Bachillerato en el centro Colegio Corazón de María, en Gijón. Mi idea siempre había sido hacer una ingeniería pero entre que vi que las matemáticas no eran lo mío y me empecé a interesar por la ciberseguridad (no hay ingeniería de ciberseguridad en Asturias) decidí hacer este grado superior a la vez que me formo por mi cuenta.</p>
+            <p>Me estoy sacando diferentes certificaciones relacionadas con el mundo digital y con la ciberseguridad, hasta la fecha tengo la Banco Santander Academy Google IA y productividad y también la Cisco Introduction to Cibersecurity. Actualmente estoy cursando la IBM Cibersecurity Fundamentals</p>
+            <figure>
+            <img src="./images/Certificado 1.png" width="350px" alt="Certificación IA">
+            </figure>
+            <figure>
+            <img src="./images/Certificado 2.png" width="250px" alt="Certificación Cisco">
+            </figure>
+            <h2>Proyectos</h2>
+            <article>
+                <h3>Inversiones</h3>
+                <figure>
+                <img src="./images/Gráfica oro.png" width="400px" alt="Gráfico valor oro">
+                <figcaption><i>Gráfica del valor del oro desde el 1971 hasta hoy</i></figcaption></figure>
+                <figure>
+                <img src="./images/Gráfica SP500.png" width="400px" alt="Gráfico valor SP500">
+                <figcaption><i>Gráfica del valor del SP500 desde el 1964 hasta 2016</i></figcaption><br>
+                <a href=".//proyecto1.html" target="_blank">Ver proyecto</a></figure>
+            </article>
+            <article>
+                <h3>Trabajo realidad virtual</h3>
+                <figure><video src="./media/Representación 3d.mp4" autoplay width="300px" ></video>
+                <figcaption><i>El trabajo trataba de hacer una representación 3d cualquiera con la app reality composer. En mi caso la hice de los switches del teclado.</figcaption></i><br>
+                <a href=".//proyecto2.html" target="_blank">Ver proyecto</a></figure>
+            </article>
+            <article>
+                <h3>Ahorcado con python</h3>
+                <figure><video src="./media/Video ahorcado.mp4" autoplay width="300px"></video>
+                <figcaption><i>El año pasado hice cojuntamente con mi clase un ahorcado en python a finales de curso</i></figcaption></figure>
+                <a href=".//proyecto3.html">Ver proyecto</a>
+            </article>
+        </div>
+        <div id="Contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="Nombre">Nombre</label>
+                <input type="text" id="Nombre" name="Nombre" required placeholder="Introduzca aquí su nombre" pattern="[A-Za-zÀ-ÿ]+"><br><br>
+
+                <label for="Correo electrónico">Correo electrónico</label>
+                <input type="text" id="Correo electrónico" name="Correo electrónico" required placeholder="ejemplo@dominio.com" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" ><br><br>
+
+                <label for="Asunto">Asunto</label>
+                <input type="text" id="Asunto" name="Asunto" placeholder="Introduzca aqui el asunto"><br><br>
+
+                <label for="Mensaje">Mensaje</label>
+                <textarea name="Mensaje" id="Mensaje" rows="5" cols="20" placeholder="Introduzca aquí el mensaje" maxlength="500">
+                </textarea><br><br>
+
+                <input type="submit"value="Enviar">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <small>
+        <p>&copy; 2025 Lucas Sesma Vinck. Todos los derechos reservados.</p>
+        <ul>
+            <li><a href="https://www.instagram.com/lucasseesma_/">Instagram</a></li>
+            <li><a href="https://github.com/lucassesma">Github</a></li>
+        </ul>
+        <p>Teléfono de contacto : 655 11 30 08
+           Correo electrónico : lucassesmavinck@gmail.com 
+        </p>
+        </small>
+    </footer>
+</body>
+</html>
